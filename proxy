@@ -1,0 +1,3 @@
+proxy_ssl_protocols TLSv1.2;
+proxy_ssl_ciphers 'ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE+AES128:ECDHE+AES256';
+proxy_ssl_verify on;
